@@ -1,162 +1,93 @@
 {
   "sections": {
-    "image_banner": {
-      "type": "image-banner",
+    "ddd5c2e5-8ae5-4730-a765-2d864a90c8a6": {
+      "type": "hero-one",
       "blocks": {
-        "heading": {
+        "template--16508986687678__ddd5c2e5-8ae5-4730-a765-2d864a90c8a6-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "Image banner",
-            "heading_size": "h0"
+            "title": "Title",
+            "title_size": "md"
           }
         },
-        "text": {
-          "type": "text",
+        "template--16508986687678__ddd5c2e5-8ae5-4730-a765-2d864a90c8a6-paragraph-1": {
+          "type": "paragraph",
           "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
-            "text_style": "body"
+            "paragraph": "Example message I ' m baby kogi cardigan kitsch hammock banjo. Typewriter viral man braid hot chicken, farm-to-table fashion axe intelligentsia lomo green juice ramps irony succulents."
           }
         },
-        "button": {
-          "type": "buttons",
+        "template--16508986687678__ddd5c2e5-8ae5-4730-a765-2d864a90c8a6-button-1": {
+          "type": "button",
           "settings": {
-            "button_label_1": "Shop all",
-            "button_link_1": "shopify:\/\/collections\/all",
-            "button_style_secondary_1": true,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
+            "button_label": "Button label",
+            "button_link": ""
           }
         }
       },
       "block_order": [
-        "heading",
-        "text",
-        "button"
+        "template--16508986687678__ddd5c2e5-8ae5-4730-a765-2d864a90c8a6-heading-1",
+        "template--16508986687678__ddd5c2e5-8ae5-4730-a765-2d864a90c8a6-paragraph-1",
+        "template--16508986687678__ddd5c2e5-8ae5-4730-a765-2d864a90c8a6-button-1"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/seaweed-washed-up-on-beach.jpg",
-        "image_overlay_opacity": 40,
-        "image_height": "large",
-        "desktop_content_position": "bottom-center",
-        "show_text_box": false,
-        "desktop_content_alignment": "center",
-        "color_scheme": "scheme-3",
-        "image_behavior": "none",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": false,
-        "show_text_below": false
+        "hero_height": "50vh",
+        "background": "#000000",
+        "opacity": 50,
+        "info_alignment": "center"
       }
     },
-    "rich_text": {
-      "type": "rich-text",
+    "ca846178-036d-4df1-8b16-cfcc169b76db": {
+      "type": "collection-group",
       "blocks": {
-        "heading": {
-          "type": "heading",
-          "settings": {
-            "heading": "Talk about your brand",
-            "heading_size": "h1"
-          }
-        },
-        "text": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "heading",
-        "text"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "scheme-1",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 0
-      }
-    },
-    "featured_collection": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Featured products",
-        "heading_size": "h2",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "all",
-        "products_to_show": 8,
-        "columns_desktop": 4,
-        "full_width": false,
-        "show_view_all": false,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "color_scheme": "scheme-1",
-        "image_ratio": "adapt",
-        "image_shape": "default",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_rating": false,
-        "enable_quick_add": false,
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 28,
-        "padding_bottom": 36
-      }
-    },
-    "collage": {
-      "type": "collage",
-      "blocks": {
-        "collection-0": {
-          "type": "collection",
+        "template--16508986687678__ca846178-036d-4df1-8b16-cfcc169b76db-featured_collection-1": {
+          "type": "featured_collection",
           "settings": {
             "collection": ""
           }
         },
-        "product": {
-          "type": "product",
+        "template--16508986687678__ca846178-036d-4df1-8b16-cfcc169b76db-featured_collection-2": {
+          "type": "featured_collection",
           "settings": {
-            "product": "",
-            "second_image": false
+            "collection": ""
           }
         },
-        "collection-1": {
-          "type": "collection",
+        "template--16508986687678__ca846178-036d-4df1-8b16-cfcc169b76db-featured_collection-3": {
+          "type": "featured_collection",
           "settings": {
             "collection": ""
           }
         }
       },
       "block_order": [
-        "collection-0",
-        "product",
-        "collection-1"
+        "template--16508986687678__ca846178-036d-4df1-8b16-cfcc169b76db-featured_collection-1",
+        "template--16508986687678__ca846178-036d-4df1-8b16-cfcc169b76db-featured_collection-2",
+        "template--16508986687678__ca846178-036d-4df1-8b16-cfcc169b76db-featured_collection-3"
       ],
       "settings": {
-        "heading": "Multimedia collage",
-        "heading_size": "h2",
-        "desktop_layout": "left",
-        "mobile_layout": "collage",
-        "card_styles": "product-card-wrapper",
-        "color_scheme": "scheme-1",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "container_shape": "square",
+        "image_fit": "contain",
+        "background": "#ffffff",
+        "opacity": 100,
+        "show_title": true,
+        "xxl_col": "col-xxl-4",
+        "xl_col": "col-xl-4",
+        "lg_col": "col-lg-4",
+        "md_col": "col-md-4",
+        "sm_col": "col-sm-2"
       }
     },
-    "video": {
-      "type": "video",
+    "28a97bcf-78fe-4227-88e9-8c37a0948e52": {
+      "type": "hero-two",
       "settings": {
-        "heading": "",
-        "heading_size": "h1",
-        "enable_video_looping": false,
-        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-        "description": "",
-        "full_width": false,
-        "color_scheme": "scheme-1",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "hero_height": "100vh",
+        "background1": "#000000",
+        "opacity1": 50,
+        "button_label1": "Button label",
+        "button_link1": "",
+        "background2": "#000000",
+        "opacity2": 50,
+        "button_label2": "Button label",
+        "button_link2": ""
       }
     },
     "multicolumn": {
@@ -212,60 +143,183 @@
         "padding_bottom": 36
       }
     },
-    "64c85f87-de19-4c4b-9102-5d4e72a25cc7": {
-      "type": "image-with-text",
+    "573728cc-fb56-4484-b921-97b92281a3bd": {
+      "type": "collection-products-1",
+      "settings": {
+        "collection": "",
+        "total_products": 16,
+        "container_shape": "rectangle",
+        "image_fit": "cover",
+        "background": "#EDEFF5",
+        "opacity": 100,
+        "show_title": true,
+        "show_price": true,
+        "xxl_col": "col-xxl-3",
+        "xl_col": "col-xl-3",
+        "lg_col": "col-lg-3",
+        "md_col": "col-md-3",
+        "sm_col": "col-sm-6"
+      }
+    },
+    "5fa9baf5-62cf-4096-825c-e15ddf2a3659": {
+      "type": "page",
+      "settings": {
+        "page": "",
+        "heading_size": "h1",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "7dc3f675-148e-40ee-b062-681116d0b87e": {
+      "type": "featured-product",
       "blocks": {
-        "template--16508804890814__64c85f87-de19-4c4b-9102-5d4e72a25cc7-heading-1": {
-          "type": "heading",
+        "template--16508986687678__7dc3f675-148e-40ee-b062-681116d0b87e-text-1": {
+          "type": "text",
           "settings": {
-            "heading": "Image with text",
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "template--16508986687678__7dc3f675-148e-40ee-b062-681116d0b87e-title-1": {
+          "type": "title",
+          "settings": {
             "heading_size": "h1"
           }
         },
-        "template--16508804890814__64c85f87-de19-4c4b-9102-5d4e72a25cc7-text-1": {
-          "type": "text",
+        "template--16508986687678__7dc3f675-148e-40ee-b062-681116d0b87e-price-1": {
+          "type": "price",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "text_style": "body"
           }
         },
-        "template--16508804890814__64c85f87-de19-4c4b-9102-5d4e72a25cc7-button-1": {
-          "type": "button",
+        "template--16508986687678__7dc3f675-148e-40ee-b062-681116d0b87e-variant_picker-1": {
+          "type": "variant_picker",
           "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false
+            "picker_type": "button"
+          }
+        },
+        "template--16508986687678__7dc3f675-148e-40ee-b062-681116d0b87e-quantity_selector-1": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "template--16508986687678__7dc3f675-148e-40ee-b062-681116d0b87e-buy_buttons-1": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true,
+            "show_gift_card_recipient": true
+          }
+        },
+        "template--16508986687678__7dc3f675-148e-40ee-b062-681116d0b87e-share-1": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
           }
         }
       },
       "block_order": [
-        "template--16508804890814__64c85f87-de19-4c4b-9102-5d4e72a25cc7-heading-1",
-        "template--16508804890814__64c85f87-de19-4c4b-9102-5d4e72a25cc7-text-1",
-        "template--16508804890814__64c85f87-de19-4c4b-9102-5d4e72a25cc7-button-1"
+        "template--16508986687678__7dc3f675-148e-40ee-b062-681116d0b87e-text-1",
+        "template--16508986687678__7dc3f675-148e-40ee-b062-681116d0b87e-title-1",
+        "template--16508986687678__7dc3f675-148e-40ee-b062-681116d0b87e-price-1",
+        "template--16508986687678__7dc3f675-148e-40ee-b062-681116d0b87e-variant_picker-1",
+        "template--16508986687678__7dc3f675-148e-40ee-b062-681116d0b87e-quantity_selector-1",
+        "template--16508986687678__7dc3f675-148e-40ee-b062-681116d0b87e-buy_buttons-1",
+        "template--16508986687678__7dc3f675-148e-40ee-b062-681116d0b87e-share-1"
       ],
       "settings": {
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "section_color_scheme": "",
+        "product": "",
         "color_scheme": "",
-        "image_behavior": "none",
-        "mobile_content_alignment": "left",
+        "secondary_background": false,
+        "media_size": "medium",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "media_position": "left",
+        "image_zoom": "lightbox",
+        "hide_variants": false,
+        "enable_video_looping": false,
         "padding_top": 36,
         "padding_bottom": 36
+      }
+    },
+    "cb339e01-db3a-4ab3-b11e-7e9116b29288": {
+      "type": "hero-two",
+      "settings": {
+        "hero_height": "50vh",
+        "background1": "#000000",
+        "opacity1": 50,
+        "button_label1": "Button label",
+        "button_link1": "",
+        "background2": "#000000",
+        "opacity2": 50,
+        "button_label2": "Button label",
+        "button_link2": ""
+      }
+    },
+    "10272387-ef03-4b84-8746-8d53b642cf78": {
+      "type": "collection-products-1",
+      "settings": {
+        "collection": "",
+        "total_products": 16,
+        "container_shape": "rectangle",
+        "image_fit": "cover",
+        "background": "#EDEFF5",
+        "opacity": 100,
+        "show_title": true,
+        "show_price": true,
+        "xxl_col": "col-xxl-3",
+        "xl_col": "col-xl-3",
+        "lg_col": "col-lg-3",
+        "md_col": "col-md-3",
+        "sm_col": "col-sm-6"
+      }
+    },
+    "955744cd-f68f-43d1-87d9-1adf8787e5fc": {
+      "type": "hero-one",
+      "blocks": {
+        "template--16508986687678__955744cd-f68f-43d1-87d9-1adf8787e5fc-heading-1": {
+          "type": "heading",
+          "settings": {
+            "title": "Title",
+            "title_size": "md"
+          }
+        },
+        "template--16508986687678__955744cd-f68f-43d1-87d9-1adf8787e5fc-paragraph-1": {
+          "type": "paragraph",
+          "settings": {
+            "paragraph": "Example message I ' m baby kogi cardigan kitsch hammock banjo. Typewriter viral man braid hot chicken, farm-to-table fashion axe intelligentsia lomo green juice ramps irony succulents."
+          }
+        },
+        "template--16508986687678__955744cd-f68f-43d1-87d9-1adf8787e5fc-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16508986687678__955744cd-f68f-43d1-87d9-1adf8787e5fc-heading-1",
+        "template--16508986687678__955744cd-f68f-43d1-87d9-1adf8787e5fc-paragraph-1",
+        "template--16508986687678__955744cd-f68f-43d1-87d9-1adf8787e5fc-button-1"
+      ],
+      "settings": {
+        "hero_height": "50vh",
+        "background": "#000000",
+        "opacity": 50,
+        "info_alignment": "center"
       }
     }
   },
   "order": [
-    "image_banner",
-    "rich_text",
-    "featured_collection",
-    "collage",
-    "video",
+    "ddd5c2e5-8ae5-4730-a765-2d864a90c8a6",
+    "ca846178-036d-4df1-8b16-cfcc169b76db",
+    "28a97bcf-78fe-4227-88e9-8c37a0948e52",
     "multicolumn",
-    "64c85f87-de19-4c4b-9102-5d4e72a25cc7"
+    "573728cc-fb56-4484-b921-97b92281a3bd",
+    "5fa9baf5-62cf-4096-825c-e15ddf2a3659",
+    "7dc3f675-148e-40ee-b062-681116d0b87e",
+    "cb339e01-db3a-4ab3-b11e-7e9116b29288",
+    "10272387-ef03-4b84-8746-8d53b642cf78",
+    "955744cd-f68f-43d1-87d9-1adf8787e5fc"
   ]
 }
