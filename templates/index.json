@@ -146,11 +146,11 @@
     "573728cc-fb56-4484-b921-97b92281a3bd": {
       "type": "collection-products-1",
       "settings": {
-        "collection": "",
+        "collection": "adidas",
         "total_products": 16,
         "container_shape": "rectangle",
         "image_fit": "cover",
-        "background": "#EDEFF5",
+        "background": "#edeff5",
         "opacity": 100,
         "show_title": true,
         "show_price": true,
@@ -262,7 +262,7 @@
         "total_products": 16,
         "container_shape": "rectangle",
         "image_fit": "cover",
-        "background": "#EDEFF5",
+        "background": "#edeff5",
         "opacity": 100,
         "show_title": true,
         "show_price": true,
